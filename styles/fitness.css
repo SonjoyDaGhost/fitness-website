@@ -128,6 +128,8 @@ header{
     position: relative;
     top: 150px;
     left: 50px;
+    backdrop-filter: blur(10px);
+
     
 }
 .banner .hilight h3 {
