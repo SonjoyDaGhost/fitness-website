@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 .inter-font {
   font-family: "Inter", sans-serif;
@@ -10,187 +7,453 @@
   font-style: normal;
 }
 /* shared style  */
-body{
-    width: 1440px;
-    margin: 0 auto;
-    background-color: black;
+main {
+  width: 55%;
+  margin: 0 auto;
 }
-.btn-primary{
-    border-radius: 42px;
-    padding: 16px 40px 16px 40px;
-    background: rgb(230, 83, 60);
-    border: none;
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0px;
-    margin-right: 14px;
+.text-center {
+  text-align: center;
+}
+.center {
+  margin: 0 auto;
+}
+.white {
+  color: white;
+}
+.white1 {
+  color: rgba(255, 255, 255, 0.5);
+}
+body {
+  margin: 0 auto;
+  background-color: black;
+}
+.btn-primary {
+  border-radius: 42px;
+  padding: 16px 40px 16px 40px;
+  background: rgb(230, 83, 60);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  margin-right: 14px;
+  cursor: pointer;
 }
 .btn-secondary {
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 42px;
-    padding: 16px 40px 16px 40px;
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0px;
-    background-color: black;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  padding: 16px 40px 16px 40px;
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  background-color: black;
+  cursor: pointer;
+}
+section{
+  margin-bottom: 100px;
 }
 .flex {
-    display: flex;
+  display: flex;
 }
 .dark02 {
-    color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
-/* Header section  */ 
-header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+.full-bleed{
+  box-shadow: 0 0 0 100vmax rgb(34, 34, 34);
+  clip-path: inset(0 -100vmax);
+
+}
+/* Header section  */
+header {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
 }
 .navbar {
-    justify-content: space-between;
-    max-width: 1060px;
-    margin: 0 auto;
-    align-items: center;
+  justify-content: space-between;
+  max-width: 1060px;
+  margin: 0 auto;
+  align-items: center;
 }
 .brand {
-    color: rgb(230, 83, 60);
-    font-size: 2.25rem;
-    font-weight: 800;
+  color: rgb(230, 83, 60);
+  font-size: 2.25rem;
+  font-weight: 800;
 }
 .navbar .link-item {
-    list-style: none;
-    margin-right: 47px;
+  list-style: none;
+  margin-right: 47px;
 }
 .navbar .link {
-    text-decoration: none;
-    font-size: 1.125rem;
-    color: rgb(255, 255, 255);
-    line-height: 120%;
-    padding: 8px 20px;
+  text-decoration: none;
+  font-size: 1.125rem;
+  color: rgb(255, 255, 255);
+  line-height: 120%;
+  padding: 8px 20px;
 }
-.navbar .link:hover{
-    border-radius: 46px;
+.navbar .link:hover {
+  border-radius: 46px;
 
-    background: rgb(230, 83, 60);
+  background: rgb(230, 83, 60);
 }
 /* banner  */
 .banner {
-    max-width: 1060px;
-    margin: 0 auto;
-    justify-content: space-between;
+  max-width: 1060px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 .banner-content {
-    max-width: 520px;
+  max-width: 520px;
 }
 
-.banner-content .banner-title, .video {
-    color: rgb(255, 255, 255);
-    font-family: Inter;
-    font-size: 78px;
-    font-weight: 900;
-    line-height: 120%;
-    margin-top: 96px;
-    margin-bottom: 0px;
+.banner-content .banner-title,
+.video {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 120%;
+  margin-top: 96px;
+  margin-bottom: 0px;
 }
 .banner-content .banner-title .special {
-    font-style: italic;
+  font-style: italic;
 }
 .banner .banner-img-container {
-    width: 450px;
-    height: 580px;
-    background-image: url("../images/Images\ 2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-   
-    display: flex;
+  width: 450px;
+  height: 580px;
+  background-image: url("../images/Images\ 2.png");
+  background-repeat: no-repeat;
+  background-position: center;
 
-    flex-direction: row-reverse;
-    
+  display: flex;
+
+  flex-direction: row-reverse;
 }
 .banner-content .banner-description {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    letter-spacing: 0.5px;
-    margin: 28px 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.5px;
+  margin: 28px 0;
 }
-.banner .hilight{
-    color: rgb(255, 255, 255);
-    width: 193px;
-    height: 98px;
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    position: relative;
-    top: 150px;
-    left: 50px;
-    backdrop-filter: blur(10px);
-
-    
+.banner .hilight {
+  color: rgb(255, 255, 255);
+  width: 193px;
+  height: 98px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  position: relative;
+  top: 150px;
+  left: 50px;
+  backdrop-filter: blur(10px);
 }
 .banner .hilight h3 {
-    font-family: Inter;
-    font-size: 2.5rem;
-    font-weight: 900;
-    line-height: 2.5rem;
-    letter-spacing: 1px;
-    padding: 17px 53px 5px 30px;
-    margin: 0;
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 2.5rem;
+  letter-spacing: 1px;
+  padding: 17px 53px 5px 30px;
+  margin: 0;
 }
-.banner .hilight p{
-    
-    margin: 0;
-    color: rgba(255, 255, 255, 0.65);
-    font-family: Inter;
-    font-size: .89rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    letter-spacing: 1px;
-    padding-left: 30px;
-    
+.banner .hilight p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.65);
+  font-family: Inter;
+  font-size: 0.89rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  padding-left: 30px;
 }
-.banner .lowlight{
-    
+.banner .lowlight {
+  position: relative;
+  top: 400px;
+  right: 110px;
+  width: 200px;
+  height: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: rgba(48, 48, 48, 0.54);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  backdrop-filter: blur(10px);
+}
+.banner .lowlight i {
+  color: rgb(230, 83, 60);
+  font-size: 30px;
+  margin: auto 0;
+  padding-left: 25px;
+}
+.banner .lowlight .title h3 {
+  color: rgb(250, 250, 249);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin: 0;
+}
+.banner .lowlight .title p {
+  color: rgba(239, 237, 232, 0.65);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+/* habit */
+main .habit .section-info {
+  width: 63%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+main .habit .section-title {
+  font-family: Inter;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 0px;
+}
+main .habit .section-description {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.habit .img-container {
+  display: flex;
+  justify-content: space-between;
+}
+.habit .img-container .img {
+  width: 21%;
+}
+.habit .img-container .img p {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  margin-top: 2px;
+}
+.habit .img-container .img .img-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 0px;
+}
+.habit .img-container .img img {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+}
+/* run an extra mile */
+main .run-extra {
+  background-color: rgb(34, 34, 34);
+  border-radius: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .run-extra .section-info {
+  width: 41%;
+  padding-top: 40px;
+  padding-left: 54px;
+  padding-bottom: 40px;
+}
+main .run-extra .section-title {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  margin: 0px;
+}
+main .run-extra .section-description{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-bottom: 34px;
+}
+main .run-extra .img-container{
+  width: 366px;
+  height: 312px;
+  margin-right: 40px;
+  background-image: url(../images/run2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 18px;
+}
+/* bmi-cal */
+main .bmi-cal .section-info{
+  width: 63%;
+  margin: 0 auto;
+  margin-bottom: 90px;
+
+  
+}
+main .bmi-cal .bmi-calculator .bmi-chart .heading{
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 2px;
+}
+main .bmi-cal .bmi-calculator .bmi-chart table{
+  border-collapse: collapse;
+  width: 120%;
+}
+main .bmi-cal .bmi-calculator .bmi-chart table,td,th{
+   border: 1px solid rgba(255, 255, 255, 0.1);
+   text-align: left;
+   padding: 14px 20px;
+}
+main .bmi-cal .bmi-calculator .bmi-chart table .white{
+  font-weight: 500;
+
+}
+main .bmi-cal .bmi-calculator .bmi-chart table td{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+main .bmi-cal .section-info .section-title{
+  font-family: Inter;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 0;
+}
+main .bmi-cal .section-info .section-description{
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+}
+main .bmi-cal .bmi-calculator{
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between;
+}
+main .bmi-cal .bmi-calculator .cal-input{
+  width: 54%;
+}
+/* responsive */
+@media screen and (max-width: 576px) {
+  .banner .banner-content {
+    margin: 0 auto;
+  }
+  main {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .navbar {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .navbar .nav-links {
+    display: none;
+  }
+  .navbar .menu-bar {
+    width: 24px;
+    height: 24px;
+  }
+  .banner {
+    flex-direction: column;
+  }
+  .banner .banner-content {
+    max-width: 350px;
+  }
+  .banner .banner-content .banner-title {
+    font-size: 3.5rem;
+  }
+  .banner .banner-img-container {
+    width: 60%;
+    background-size: contain;
     position: relative;
-    top: 400px;
-    right: 110px;
-    width: 200px;
-    height: 100px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 12px;
-    background: rgba(48, 48, 48, 0.54);
+    left: 50px;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    gap: 15px;
-    backdrop-filter: blur(10px);
-    
-}
-.banner .lowlight i{
-    color: rgb(230, 83, 60);
-    font-size: 30px;
-    margin: auto 0;
-    padding-left: 25px;
-    
-}
-.banner .lowlight .title h3{
-    color: rgb(250, 250, 249);
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    margin: 0;
-}
-.banner .lowlight .title p{
-    color: rgba(239, 237, 232, 0.65);
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.5px;
-    margin: 0;
+    flex-direction: column;
+  }
+  .banner .banner-content .btn {
+    display: flex;
+  }
+  .banner .banner-content .btn .btn-primary {
+  }
+  .banner .hilight {
+    width: 160px;
+    position: relative;
+    margin-right: 30px;
+  }
+  .banner .hilight p {
+    font-size: 0.6rem;
+  }
+  .banner .hilight h3 {
+    font-size: 1.5rem;
+  }
+  .banner .lowlight {
+    width: 140px;
+  }
+  main .habit .section-info {
+    width: 90%;
+    margin: 0 auto;
+  }
+  main .habit .section-info .section-title {
+    font-size: 2.72rem;
+  }
+  main .habit .section-info .section-description {
+    font-size: 0.75rem;
+  }
+  main .habit .img-container {
+    flex-direction: column;
+  }
+  main .habit .img-container .img {
+    width: 56%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  main .run-extra{
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  main .run-extra .section-info{
+    width: 85%;
+    padding-left: 0px;
+    padding-bottom: 0px;
+
+  }
+  main .run-extra .img-container{
+    margin-right: 0px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  main .run-extra .img-container{
+    width: 85%;
+    height: 259px;
+  }
+  main .run-extra .section-info button{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
 }
