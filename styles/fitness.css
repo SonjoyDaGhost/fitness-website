@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+.style-script-regular {
+  font-family: "Style Script", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -15,6 +22,9 @@ main,
 footer {
   width: 55%;
   margin: 0 auto;
+}
+main{
+  margin-top: 100px;
 }
 .text-center {
   text-align: center;
@@ -797,5 +807,17 @@ footer .copyright {
   }
   main .run-extra{
     flex-direction: column;
+  }
+  footer .section-info .title{
+    font-size: 2.5rem;
+  }
+  footer .get-started-1 .title{
+    font-size: 1.5rem;
+  }
+  footer .get-started-2 .title{
+    font-size: 1.5rem;
+  }
+  main .run-extra .section-title{
+    font-size: 2.5rem;
   }
 }
