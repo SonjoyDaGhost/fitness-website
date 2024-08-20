@@ -24,6 +24,7 @@ main {
   color: rgba(255, 255, 255, 0.5);
 }
 body {
+  
   margin: 0 auto;
   background-color: black;
 }
@@ -369,7 +370,7 @@ main .bmi-cal .bmi-calculator .cal-input .section-description {
   text-align: left;
 }
 main .bmi-cal .bmi-calculator form input {
-  width: 38%;
+  width: 35%;
   padding: 12px 40px 12px 20px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
@@ -386,7 +387,7 @@ main .bmi-cal .bmi-calculator form input {
   margin-right: 10px;
 }
 main .bmi-cal .bmi-calculator form select{
-  width: 47.5%;
+  width: 46%;
   padding: 12px 40px 12px 20px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
@@ -404,8 +405,13 @@ main .bmi-cal .bmi-calculator form select option{
   color: white;
 }
 main .bmi-cal .bmi-calculator form .physical-activity{
-  width: 98%;
-  background-color: rebeccapurple;
+  width: 94%;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 35px;
+}
+main .bmi-cal .bmi-calculator form button{
+  margin-bottom: 50px;
 }
 /* responsive */
 @media screen and (max-width: 576px) {
@@ -413,9 +419,8 @@ main .bmi-cal .bmi-calculator form .physical-activity{
     margin: 0 auto;
   }
   main {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
-    margin-bottom: 50px;
   }
 
   .navbar {
@@ -506,5 +511,44 @@ main .bmi-cal .bmi-calculator form .physical-activity{
     display: block;
     margin: 0 auto;
     width: 100%;
+  }
+  main .bmi-cal{
+    width: 95%;
+    margin: 0 auto;
+  }
+  main .bmi-cal .section-info{
+    width: 90%;
+    margin: 0 auto;
+  }
+  main .bmi-cal .section-info .section-title{
+    font-size: 2rem;
+  }
+  main .bmi-cal .bmi-calculator{
+    flex-direction: column;
+  }
+  main .bmi-cal .bmi-calculator .bmi-chart{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 0;
+  }
+  main .bmi-cal .bmi-calculator .bmi-chart .heading{
+
+  }
+  main .bmi-cal .bmi-calculator .bmi-chart table{
+    font-size: 22px;
+  }
+  main .bmi-cal .bmi-calculator .cal-input{
+    width: 90%;
+    margin: 0 auto;
+  }
+  main .bmi-cal .bmi-calculator .cal-input form input{
+    width: 80%;
+  }
+  #sex{
+    width: 97%;
+    margin-bottom: 12px;
+  }
+  main .bmi-cal .bmi-calculator form .physical-activity{
+    width: 97%;
   }
 }
