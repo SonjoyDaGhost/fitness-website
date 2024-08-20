@@ -608,6 +608,7 @@ footer .copyright {
 
 /* responsive */
 @media screen and (max-width: 576px) {
+  
   header{
     width: 90%;
     margin: 0 auto;
@@ -662,8 +663,13 @@ footer .copyright {
 }
   .banner .banner-content .btn {
     display: flex;
+    justify-content: space-between;
   }
   .banner .banner-content .btn .btn-primary {
+    padding: 10px 15px;
+  }
+  .banner .banner-content .btn .btn-secondary{
+    padding: 10px 15px;
   }
   .banner .hilight {
     width: 160px;
@@ -787,7 +793,7 @@ footer .copyright {
   }
   footer {
     width: 85%;
-    margin: 0;
+    margin: 0 auto;
   }
   footer .content {
     width: 90%;
@@ -819,5 +825,8 @@ footer .copyright {
   }
   main .run-extra .section-title{
     font-size: 2.5rem;
+  }
+  section{
+    margin: 0 auto;
   }
 }
